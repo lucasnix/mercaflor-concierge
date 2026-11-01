@@ -1,0 +1,38 @@
+name: Validate and deploy Mercaflor Concierge
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: mercaflor-deployment
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Validate restricted deployment
+        run: |
+          python3 scripts/test-server-deploy.py
+          python3 scripts/test-deploy-archive.py
+          bash -n scripts/deploy-client.sh deployment/setup-deploy.sh
+      - name: Release marker
+        run: node -e "require('fs').writeFileSync('dist/deployment-'+process.env.GITHUB_SHA+'.json',JSON.stringify({commit:process.env.GITHUB_SHA}))"
+      - name: Deploy to mercaflor.clicpic.co
+        if: vars.DEPLOY_ENABLED == 'true'
+        env:
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+          DEPLOY_HOST_KEY: ${{ vars.DEPLOY_HOST_KEY }}
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: bash scripts/deploy-client.sh

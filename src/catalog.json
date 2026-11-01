@@ -1,0 +1,532 @@
+[
+  {
+    "id": "p01",
+    "name": "Bouquet Pink Dawn",
+    "category": "Bouquets",
+    "image": "products/p01.webp",
+    "variants": [
+      {
+        "name": "Classic",
+        "price": 106
+      },
+      {
+        "name": "Deluxe",
+        "price": 212
+      },
+      {
+        "name": "Premium",
+        "price": 420
+      }
+    ],
+    "shownDeluxe": true,
+    "sourcePage": 4
+  },
+  {
+    "id": "p02",
+    "name": "Bouquet Caribbean Sunset",
+    "category": "Bouquets",
+    "image": "products/p02.webp",
+    "variants": [
+      {
+        "name": "Classic",
+        "price": 62
+      },
+      {
+        "name": "Deluxe",
+        "price": 75
+      },
+      {
+        "name": "Premium",
+        "price": 100
+      }
+    ],
+    "shownDeluxe": true,
+    "sourcePage": 4
+  },
+  {
+    "id": "p03",
+    "name": "Bouquet Ivory Breeze",
+    "category": "Bouquets",
+    "image": "products/p03.webp",
+    "variants": [
+      {
+        "name": "Classic",
+        "price": 106
+      },
+      {
+        "name": "Deluxe",
+        "price": 138
+      },
+      {
+        "name": "Premium",
+        "price": 180
+      }
+    ],
+    "shownDeluxe": true,
+    "sourcePage": 4
+  },
+  {
+    "id": "p04",
+    "name": "Bouquet Amor Eterno",
+    "category": "Bouquets",
+    "image": "products/p04.webp",
+    "variants": [
+      {
+        "name": "Classic",
+        "price": 106
+      },
+      {
+        "name": "Deluxe",
+        "price": 212
+      },
+      {
+        "name": "Premium",
+        "price": 420
+      }
+    ],
+    "shownDeluxe": true,
+    "sourcePage": 4
+  },
+  {
+    "id": "p05",
+    "name": "Bouquet Viva La Vida",
+    "category": "Bouquets",
+    "image": "products/p05.webp",
+    "variants": [
+      {
+        "name": "Classic",
+        "price": 125
+      },
+      {
+        "name": "Deluxe",
+        "price": 162
+      },
+      {
+        "name": "Premium",
+        "price": 212
+      }
+    ],
+    "shownDeluxe": true,
+    "sourcePage": 4
+  },
+  {
+    "id": "p06",
+    "name": "Bouquet Candy Bloom",
+    "category": "Bouquets",
+    "image": "products/p06.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 150
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 4
+  },
+  {
+    "id": "p07",
+    "name": "Bouquet Golden Caribe",
+    "category": "Signature Bouquets",
+    "image": "products/p07.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 88
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 5
+  },
+  {
+    "id": "p08",
+    "name": "Bouquet Black Sun",
+    "category": "Signature Bouquets",
+    "image": "products/p08.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 113
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 5
+  },
+  {
+    "id": "p09",
+    "name": "Bouquet Isla Garden",
+    "category": "Signature Bouquets",
+    "image": "products/p09.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 75
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 5
+  },
+  {
+    "id": "p10",
+    "name": "Bouquet Rosé Kiss",
+    "category": "Signature Bouquets",
+    "image": "products/p10.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 163
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 5
+  },
+  {
+    "id": "p11",
+    "name": "Bouquet Beso de Amor",
+    "category": "Signature Bouquets",
+    "image": "products/p11.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 235
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 5
+  },
+  {
+    "id": "p12",
+    "name": "Bouquet Fuego Tropical",
+    "category": "Signature Bouquets",
+    "image": "products/p12.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 138
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 5
+  },
+  {
+    "id": "p13",
+    "name": "Pink Elegance",
+    "category": "Vases",
+    "image": "products/p13.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 238
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 6
+  },
+  {
+    "id": "p14",
+    "name": "Blush Harmony",
+    "category": "Vases",
+    "image": "products/p14.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 138
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 6
+  },
+  {
+    "id": "p15",
+    "name": "Garden Touch",
+    "category": "Vases",
+    "image": "products/p15.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 88
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 6
+  },
+  {
+    "id": "p16",
+    "name": "Sun Caribea",
+    "category": "Vases",
+    "image": "products/p16.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 188
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 6
+  },
+  {
+    "id": "p17",
+    "name": "Ruby Love",
+    "category": "Vases",
+    "image": "products/p17.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 275
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 6
+  },
+  {
+    "id": "p18",
+    "name": "Pink Fantasy Box",
+    "category": "Flower Boxes",
+    "image": "products/p18.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 188
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 8
+  },
+  {
+    "id": "p19",
+    "name": "Tropical Pop Box",
+    "category": "Flower Boxes",
+    "image": "products/p19.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 163
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 8
+  },
+  {
+    "id": "p20",
+    "name": "Classic Love Box",
+    "category": "Flower Boxes",
+    "image": "products/p20.webp",
+    "variants": [
+      {
+        "name": "Classic",
+        "price": 238
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 8
+  },
+  {
+    "id": "p21",
+    "name": "Midnight Roses Box",
+    "category": "Flower Boxes",
+    "image": "products/p21.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 225
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 8
+  },
+  {
+    "id": "p22",
+    "name": "Golden Romance Box",
+    "category": "Flower Boxes",
+    "image": "products/p22.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 88
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 8
+  },
+  {
+    "id": "p23",
+    "name": "Sunny Garden Box",
+    "category": "Flower Boxes",
+    "image": "products/p23.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 113
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 8
+  },
+  {
+    "id": "p24",
+    "name": "Heart of Love Box",
+    "category": "Flower Boxes",
+    "image": "products/p24.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 125
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 9
+  },
+  {
+    "id": "p25",
+    "name": "Caribe Bloom Box",
+    "category": "Flower Boxes",
+    "image": "products/p25.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 125
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 9
+  },
+  {
+    "id": "p26",
+    "name": "Pink Serenity Box",
+    "category": "Flower Boxes",
+    "image": "products/p26.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 138
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 9
+  },
+  {
+    "id": "p27",
+    "name": "Spring Kiss Box",
+    "category": "Flower Boxes",
+    "image": "products/p27.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 163
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 9
+  },
+  {
+    "id": "p28",
+    "name": "Red Velvet Box",
+    "category": "Flower Boxes",
+    "image": "products/p28.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 438
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 9
+  },
+  {
+    "id": "p29",
+    "name": "Similar stuffed animal with Roses",
+    "category": "Add-ons",
+    "image": "products/p29.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 82
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 10
+  },
+  {
+    "id": "p30",
+    "name": "Helium Balloon 9–12 inches",
+    "category": "Add-ons",
+    "image": "products/p30.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 25
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 10
+  },
+  {
+    "id": "p31",
+    "name": "Stick Balloon 4–6 inches",
+    "category": "Add-ons",
+    "image": "products/p31.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 13
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 10
+  },
+  {
+    "id": "p32",
+    "name": "Mini Sparkling Rosé 200ml",
+    "category": "Add-ons",
+    "image": "products/p32.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 32
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 10
+  },
+  {
+    "id": "p33",
+    "name": "Ferrero Rocher Box",
+    "category": "Add-ons",
+    "image": "products/p33.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 32
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 10
+  },
+  {
+    "id": "p34",
+    "name": "Single Red Rose",
+    "category": "Add-ons",
+    "image": "products/p34.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 10
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 10
+  },
+  {
+    "id": "p35",
+    "name": "Rose Petals Bag",
+    "category": "Add-ons",
+    "image": "products/p35.webp",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 55
+      }
+    ],
+    "shownDeluxe": false,
+    "sourcePage": 10
+  }
+]

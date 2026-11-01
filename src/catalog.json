@@ -7,15 +7,18 @@
     "variants": [
       {
         "name": "Classic",
-        "price": 106
+        "price": 106,
+        "image": "products/p01-classic.png"
       },
       {
         "name": "Deluxe",
-        "price": 212
+        "price": 212,
+        "image": "products/p01.webp"
       },
       {
         "name": "Premium",
-        "price": 420
+        "price": 420,
+        "image": "products/p01-premium.png"
       }
     ],
     "shownDeluxe": true,
@@ -29,15 +32,18 @@
     "variants": [
       {
         "name": "Classic",
-        "price": 62
+        "price": 62,
+        "image": "products/p02-classic.png"
       },
       {
         "name": "Deluxe",
-        "price": 75
+        "price": 75,
+        "image": "products/p02.webp"
       },
       {
         "name": "Premium",
-        "price": 100
+        "price": 100,
+        "image": "products/p02-premium.png"
       }
     ],
     "shownDeluxe": true,
@@ -51,15 +57,18 @@
     "variants": [
       {
         "name": "Classic",
-        "price": 106
+        "price": 106,
+        "image": "products/p03-classic.png"
       },
       {
         "name": "Deluxe",
-        "price": 138
+        "price": 138,
+        "image": "products/p03.webp"
       },
       {
         "name": "Premium",
-        "price": 180
+        "price": 180,
+        "image": "products/p03-premium.png"
       }
     ],
     "shownDeluxe": true,
@@ -73,15 +82,18 @@
     "variants": [
       {
         "name": "Classic",
-        "price": 106
+        "price": 106,
+        "image": "products/p04-classic.png"
       },
       {
         "name": "Deluxe",
-        "price": 212
+        "price": 212,
+        "image": "products/p04.webp"
       },
       {
         "name": "Premium",
-        "price": 420
+        "price": 420,
+        "image": "products/p04-premium.png"
       }
     ],
     "shownDeluxe": true,
@@ -95,15 +107,18 @@
     "variants": [
       {
         "name": "Classic",
-        "price": 125
+        "price": 125,
+        "image": "products/p05-classic.png"
       },
       {
         "name": "Deluxe",
-        "price": 162
+        "price": 162,
+        "image": "products/p05.webp"
       },
       {
         "name": "Premium",
-        "price": 212
+        "price": 212,
+        "image": "products/p05-premium.png"
       }
     ],
     "shownDeluxe": true,
@@ -117,7 +132,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 150
+        "price": 150,
+        "image": "products/p06.webp"
       }
     ],
     "shownDeluxe": false,
@@ -131,7 +147,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 88
+        "price": 88,
+        "image": "products/p07.webp"
       }
     ],
     "shownDeluxe": false,
@@ -145,7 +162,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 113
+        "price": 113,
+        "image": "products/p08.webp"
       }
     ],
     "shownDeluxe": false,
@@ -159,7 +177,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 75
+        "price": 75,
+        "image": "products/p09.webp"
       }
     ],
     "shownDeluxe": false,
@@ -173,7 +192,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 163
+        "price": 163,
+        "image": "products/p10.webp"
       }
     ],
     "shownDeluxe": false,
@@ -187,7 +207,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 235
+        "price": 235,
+        "image": "products/p11.webp"
       }
     ],
     "shownDeluxe": false,
@@ -201,7 +222,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 138
+        "price": 138,
+        "image": "products/p12.webp"
       }
     ],
     "shownDeluxe": false,
@@ -215,7 +237,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 238
+        "price": 238,
+        "image": "products/p13.webp"
       }
     ],
     "shownDeluxe": false,
@@ -229,7 +252,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 138
+        "price": 138,
+        "image": "products/p14.webp"
       }
     ],
     "shownDeluxe": false,
@@ -243,7 +267,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 88
+        "price": 88,
+        "image": "products/p15.webp"
       }
     ],
     "shownDeluxe": false,
@@ -257,7 +282,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 188
+        "price": 188,
+        "image": "products/p16.webp"
       }
     ],
     "shownDeluxe": false,
@@ -271,7 +297,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 275
+        "price": 275,
+        "image": "products/p17.webp"
       }
     ],
     "shownDeluxe": false,
@@ -285,7 +312,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 188
+        "price": 188,
+        "image": "products/p18.webp"
       }
     ],
     "shownDeluxe": false,
@@ -299,7 +327,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 163
+        "price": 163,
+        "image": "products/p19.webp"
       }
     ],
     "shownDeluxe": false,
@@ -313,7 +342,8 @@
     "variants": [
       {
         "name": "Classic",
-        "price": 238
+        "price": 238,
+        "image": "products/p20.webp"
       }
     ],
     "shownDeluxe": false,
@@ -327,7 +357,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 225
+        "price": 225,
+        "image": "products/p21.webp"
       }
     ],
     "shownDeluxe": false,
@@ -341,7 +372,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 88
+        "price": 88,
+        "image": "products/p22.webp"
       }
     ],
     "shownDeluxe": false,
@@ -355,7 +387,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 113
+        "price": 113,
+        "image": "products/p23.webp"
       }
     ],
     "shownDeluxe": false,
@@ -369,7 +402,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 125
+        "price": 125,
+        "image": "products/p24.webp"
       }
     ],
     "shownDeluxe": false,
@@ -383,7 +417,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 125
+        "price": 125,
+        "image": "products/p25.webp"
       }
     ],
     "shownDeluxe": false,
@@ -397,7 +432,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 138
+        "price": 138,
+        "image": "products/p26.webp"
       }
     ],
     "shownDeluxe": false,
@@ -411,7 +447,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 163
+        "price": 163,
+        "image": "products/p27.webp"
       }
     ],
     "shownDeluxe": false,
@@ -425,7 +462,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 438
+        "price": 438,
+        "image": "products/p28.webp"
       }
     ],
     "shownDeluxe": false,
@@ -439,7 +477,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 82
+        "price": 82,
+        "image": "products/p29.webp"
       }
     ],
     "shownDeluxe": false,
@@ -453,7 +492,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 25
+        "price": 25,
+        "image": "products/p30.webp"
       }
     ],
     "shownDeluxe": false,
@@ -467,7 +507,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 13
+        "price": 13,
+        "image": "products/p31.webp"
       }
     ],
     "shownDeluxe": false,
@@ -481,7 +522,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 32
+        "price": 32,
+        "image": "products/p32.webp"
       }
     ],
     "shownDeluxe": false,
@@ -495,7 +537,8 @@
     "variants": [
       {
         "name": "Standard",
-        "price": 32
+        "price": 32,
+        "image": "products/p33.webp"
       }
     ],
     "shownDeluxe": false,
@@ -505,11 +548,12 @@
     "id": "p34",
     "name": "Single Red Rose",
     "category": "Add-ons",
-    "image": "products/p34.webp",
+    "image": "products/p35.webp",
     "variants": [
       {
         "name": "Standard",
-        "price": 10
+        "price": 10,
+        "image": "products/p35.webp"
       }
     ],
     "shownDeluxe": false,
@@ -519,11 +563,12 @@
     "id": "p35",
     "name": "Rose Petals Bag",
     "category": "Add-ons",
-    "image": "products/p35.webp",
+    "image": "products/p34.webp",
     "variants": [
       {
         "name": "Standard",
-        "price": 55
+        "price": 55,
+        "image": "products/p34.webp"
       }
     ],
     "shownDeluxe": false,

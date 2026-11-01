@@ -23,7 +23,7 @@ COMMIT = 'a' * 40
 def archive(extra=None):
     output = io.BytesIO()
     with tarfile.open(fileobj=output, mode='w:gz') as tar:
-        files = {name: b'example' for name in ('index.html', '.htaccess', 'fonts/mesa-1.ttf')}
+        files = {name: b'example' for name in ('index.html', '.htaccess', 'fonts/mesa-1.ttf', 'logo.jpg', 'floral-concierge-2027.pdf', 'products/p01.webp')}
         files[f'deployment-{COMMIT}.json'] = json.dumps({'commit': COMMIT}).encode()
         for name, content in files.items():
             info = tarfile.TarInfo(name)
@@ -62,6 +62,8 @@ class ReceiverTests(unittest.TestCase):
             deploy.unpack(archive(), destination, COMMIT)
             self.assertEqual((destination / '.htaccess').read_text(), deploy.STATIC_HTACCESS)
             self.assertTrue((destination / 'fonts/mesa-1.ttf').is_file())
+            for name in ('logo.jpg', 'floral-concierge-2027.pdf', 'products/p01.webp'):
+                self.assertTrue((destination / name).is_file())
             self.assertIn('RewriteRule ^ index.html [L]', (destination / '.htaccess').read_text())
 
     def test_unsafe_paths_and_server_scripts(self):

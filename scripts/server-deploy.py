@@ -64,14 +64,14 @@ def unpack(data, destination, commit):
             seen.add(name)
             if not (member.isdir() or member.isfile()):
                 raise ValueError('Links and special files are forbidden')
-            if len(path.parts) > 1 and path.parts[0] not in ('assets', 'media', 'fonts'):
+            if len(path.parts) > 1 and path.parts[0] not in ('assets', 'media', 'fonts', 'products'):
                 raise ValueError('Unexpected directory')
             if member.isdir():
-                if path.parts[0] not in ('assets', 'media', 'fonts'):
+                if path.parts[0] not in ('assets', 'media', 'fonts', 'products'):
                     raise ValueError('Unexpected directory')
                 (destination / name).mkdir(parents=True, exist_ok=True)
                 continue
-            if len(path.parts) == 1 and name not in ('index.html', 'favicon.svg', 'icons.svg', 'robots.txt', 'sitemap.xml', '.htaccess', f'deployment-{commit}.json'):
+            if len(path.parts) == 1 and name not in ('index.html', 'favicon.svg', 'icons.svg', 'robots.txt', 'sitemap.xml', '.htaccess', 'logo.jpg', 'floral-concierge-2027.pdf', f'deployment-{commit}.json'):
                 raise ValueError('Unexpected root file')
             if name != '.htaccess' and path.suffix.lower() not in ('.html', '.js', '.css', '.json', '.xml', '.svg', '.png', '.jpg', '.jpeg', '.webp', '.gif', '.ico', '.mp4', '.woff', '.woff2', '.ttf', '.txt', '.avif', '.pdf'):
                 raise ValueError('Unexpected file type')

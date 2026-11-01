@@ -24,6 +24,6 @@ button:active{transform:scale(.98)}
 @media(orientation:portrait){.hero-orbit{width:min(62vw,38vh,680px);height:min(62vw,38vh,680px)}}
 @media(max-width:700px){.hero-orbit{width:min(65vw,32vh);height:min(65vw,32vh)}}
 
-header>.brand-mark{display:block;position:relative;flex:0 0 64px;width:64px;height:64px;overflow:hidden;mix-blend-mode:multiply}
+header>.brand-mark{display:block;position:relative;flex:0 0 64px;width:64px;height:60px;overflow:hidden;mix-blend-mode:multiply}
 .brand-mark img{position:absolute;width:175px;height:175px;max-width:none;left:-56px;top:-34px}
 @media(max-width:700px){header>.brand-mark{transform:scale(.85);transform-origin:left center}}

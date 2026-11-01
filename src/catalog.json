@@ -8,7 +8,7 @@
       {
         "name": "Classic",
         "price": 106,
-        "image": "products/p01-classic.png"
+        "image": "products/p01-classic.webp"
       },
       {
         "name": "Deluxe",
@@ -18,7 +18,7 @@
       {
         "name": "Premium",
         "price": 420,
-        "image": "products/p01-premium.png"
+        "image": "products/p01-premium.webp"
       }
     ],
     "shownDeluxe": true,
@@ -33,7 +33,7 @@
       {
         "name": "Classic",
         "price": 62,
-        "image": "products/p02-classic.png"
+        "image": "products/p02-classic.webp"
       },
       {
         "name": "Deluxe",
@@ -43,7 +43,7 @@
       {
         "name": "Premium",
         "price": 100,
-        "image": "products/p02-premium.png"
+        "image": "products/p02-premium.webp"
       }
     ],
     "shownDeluxe": true,
@@ -58,7 +58,7 @@
       {
         "name": "Classic",
         "price": 106,
-        "image": "products/p03-classic.png"
+        "image": "products/p03-classic.webp"
       },
       {
         "name": "Deluxe",
@@ -68,7 +68,7 @@
       {
         "name": "Premium",
         "price": 180,
-        "image": "products/p03-premium.png"
+        "image": "products/p03-premium.webp"
       }
     ],
     "shownDeluxe": true,
@@ -83,7 +83,7 @@
       {
         "name": "Classic",
         "price": 106,
-        "image": "products/p04-classic.png"
+        "image": "products/p04-classic.webp"
       },
       {
         "name": "Deluxe",
@@ -93,7 +93,7 @@
       {
         "name": "Premium",
         "price": 420,
-        "image": "products/p04-premium.png"
+        "image": "products/p04-premium.webp"
       }
     ],
     "shownDeluxe": true,
@@ -108,7 +108,7 @@
       {
         "name": "Classic",
         "price": 125,
-        "image": "products/p05-classic.png"
+        "image": "products/p05-classic.webp"
       },
       {
         "name": "Deluxe",
@@ -118,7 +118,7 @@
       {
         "name": "Premium",
         "price": 212,
-        "image": "products/p05-premium.png"
+        "image": "products/p05-premium.webp"
       }
     ],
     "shownDeluxe": true,
